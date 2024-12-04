@@ -1,0 +1,8 @@
+dotnet new sln -n ToDoListSolution
+cd ToDoListSolution
+dotnet new webapi -n ToDoList.Api
+dotnet new blazorwasm -n ToDoList.Frontend
+dotnet sln add ToDoList.Api/ToDoList.Api.csproj
+dotnet sln add ToDoList.Frontend/ToDoList.Frontend.csproj
+
+###
